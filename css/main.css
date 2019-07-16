@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: 'wisdom script';
+    src: url('../fonts/wisdom-script.woff') format('woff');
+}
+
+body {
+    color: black;
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    font-size: 30pt;
+    font-weight: 700;
+    padding: 37px 0px;
+    text-transform: uppercase;
+}
+ 
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 52px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 25px 0;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 10px;
+    text-transform: uppercase
+}
+
+header nav ul li a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+.top-section,
+.bottom-section{
+    margin: 0 auto;
+    clear: both;
+}
+
+/*****TOP SECTION*****/
+
+.hero-image{
+    height: auto;
+    float: left;
+}
+.hero-image img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+.welcome {
+    float: left;
+    border-bottom: 2px solid #dedbdc;
+}
+
+.welcome h2 {
+    color: #77a466;
+    font-size: 18pt;
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+
+.welcome p {
+    font-size: 16pt;
+}
+
+/*****BOTTOM SECTION*****/
+.bottom-section h3 {
+    font-size: 12pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.bottom-section p {
+    font-size: 16pt;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    float: left;
+    height: auto;
+    width: 399px;
+}
+
+.section-two {
+    border-right: 2px solid #dedbdc;
+    border-left: 2px solid #dedbdc;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    color: #77a466;
+    line-height: 24px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.reviews {
+    color: #333;
+    line-height: 24px;
+    padding: 10px 30px;
+}
+
+.address {
+    line-height: 24px;
+    padding: 10px 30px;
+}
+
+footer {
+    border-top: 2px solid #dedbdc;
+    clear: both;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 16pt;
+}
+
+footer h4 span {
+    color: #77a466;
+    font-family: 'wisdom-script', cursive;
+}
