@@ -121,7 +121,7 @@ header nav ul li a {
     color: #77a466;
     line-height: 24px;
     padding: 10px 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .reviews {
@@ -149,5 +149,5 @@ footer h4 {
 
 footer h4 span {
     color: #77a466;
-    font-family: 'wisdom-script', cursive;
+    font-family: 'wisdom script', cursive;
 }
